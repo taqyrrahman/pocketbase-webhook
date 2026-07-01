@@ -26,8 +26,8 @@ WORKDIR /app
 RUN apk add --no-cache ca-certificates
 
 # Environment defaults (can override in docker run / compose)
-ENV WEBHOOK_URL
-ENV WEBHOOK_API_KEY
+ENV WEBHOOK_URL=""
+ENV WEBHOOK_API_KEY=""
 
 # Copy the compiled binary from builder stage
 COPY --from=builder /pocketbase-webhook .
