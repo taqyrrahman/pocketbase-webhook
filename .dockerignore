@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+
+# CI/CD
+.github
+
+# Environment
+.env
+
+# Documentation
+README.md
+*.md
+
+# Tests
+test/
+
+# IDE / Editor
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
